@@ -5,7 +5,7 @@ def prime?(number)
   possible_factors = []
   
   if number == 1 
-    return true
+    return false
   
   elsif number > 0
   halfway = (number / 2) + 1
