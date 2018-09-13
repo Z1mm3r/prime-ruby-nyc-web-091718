@@ -14,7 +14,7 @@ def prime?(number)
   elsif number < 0
   halfway = (number / 2) - 1
   possible_factors = (halfway..-2).to_a
-  
+  return FALSE
   else
     return FALSE
   end
