@@ -17,7 +17,7 @@ def prime?(number)
   end
   
   while(possible_factors.size > 0)
-    if( number != possible_factors[possible_factors.size -1] && number % possible_factors[possible_factors.size -1] == 0 )
+    if( number != possible_factors[possible_factors.size - 1] && number % possible_factors[possible_factors.size - 1] == 0 )
       return FALSE
     else
      possible_factors.pop
