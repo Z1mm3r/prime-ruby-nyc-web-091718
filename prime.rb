@@ -22,7 +22,7 @@ def prime?(number)
     else
      possible_factors.pop
     end
-end
+  end
   
   
 end
