@@ -23,6 +23,7 @@ def prime?(number)
      possible_factors.pop
     end
   end
+  return TRUE
   
   
 end
