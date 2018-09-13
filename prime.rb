@@ -12,9 +12,8 @@ def prime?(number)
   possible_factors = (2..halfway).to_a
   
   elsif number < 0
-  halfway = (number / 2) - 1
-  possible_factors = (halfway..-2).to_a
   return FALSE
+  
   else
     return FALSE
   end
