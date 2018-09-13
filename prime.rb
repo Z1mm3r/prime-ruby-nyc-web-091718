@@ -4,7 +4,10 @@ def prime?(number)
   
   possible_factors = []
   
-  if number > 0
+  if number == 1 || number == -1
+    return true
+  
+  elsif number > 0
   halfway = (number / 2) + 1
   possible_factors = (2..halfway).to_a
   
