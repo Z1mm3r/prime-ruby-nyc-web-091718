@@ -4,7 +4,7 @@ def prime?(number)
   
   possible_factors = []
   
-  if number == 1 || number == -1
+  if number == 1 
     return true
   
   elsif number > 0
